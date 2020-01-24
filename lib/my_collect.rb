@@ -9,7 +9,6 @@ def my_collection(array)
     i += 1
   end
   collection
-  binding.pry
 end
 
 my_collection(["Julie", "Tom", "Jim"]) {|name| "Hi #{name}."}
