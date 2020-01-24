@@ -10,5 +10,3 @@ def my_collection(array)
   end
   collection
 end
-
-my_collection(["Julie", "Tom", "Jim"]) {|name| "Hi #{name}."}
